@@ -4,13 +4,13 @@
  * and open the template in the editor.
  */
 
-package civ_game;
+package civilization;
 
 /**
  *
- * @author AustinHD
+ * @author ahunter
  */
-public class Civ_game {
+public class Civilization {
 
     /**
      * @param args the command line arguments
