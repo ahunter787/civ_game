@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 package civilization;
 =======
 package finalproject;
@@ -6,11 +7,17 @@ package finalproject;
 import java.util.ArrayList;
 import java.util.Random;
 >>>>>>> jb
+=======
+package civilization;
+>>>>>>> ah
 
 /**
  * Player.java created by jebraun on Apr 10, 2014 at 1:23:33 PM
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ah
 public class Player implements Actor {
 
     @Override
@@ -26,6 +33,7 @@ public class Player implements Actor {
 
     private void collectResources() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+<<<<<<< HEAD
 =======
 public class Player extends Actor {
 
@@ -58,6 +66,8 @@ public class Player extends Actor {
             town.collectRecources(grid);
         }
 >>>>>>> jb
+=======
+>>>>>>> ah
     }
 
     private Actor evaluateThreats() {
@@ -69,12 +79,16 @@ public class Player extends Actor {
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ah
     private boolean checkSpawn() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     private void spawn() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+<<<<<<< HEAD
 =======
     private void checkSpawn(Cell[][] grid) { //TODO: Maybe adda extra spawning conditions?
         Random r = new java.util.Random();
@@ -82,5 +96,7 @@ public class Player extends Actor {
             towns.get((int) (r.nextDouble() * towns.size())).spawn(grid);
         }
 >>>>>>> jb
+=======
+>>>>>>> ah
     }
 }

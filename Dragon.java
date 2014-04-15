@@ -3,10 +3,14 @@
  * and open the template in the editor.
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 package civilization;
 =======
 package finalproject;
 >>>>>>> jb
+=======
+package civilization;
+>>>>>>> ah
 
 /**
  *
@@ -14,6 +18,9 @@ package finalproject;
  */
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ah
 public interface Dragon extends Actor{
     
     void move();
@@ -21,6 +28,7 @@ public interface Dragon extends Actor{
     boolean doIAttack();
     
     void attack();
+<<<<<<< HEAD
 =======
 public abstract class Dragon extends Actor{
     
@@ -30,5 +38,7 @@ public abstract class Dragon extends Actor{
     
     abstract void attack();
 >>>>>>> jb
+=======
+>>>>>>> ah
     
 }

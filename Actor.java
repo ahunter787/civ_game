@@ -3,17 +3,22 @@
  * and open the template in the editor.
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 package civilization;
 =======
 package finalproject;
 
 import java.awt.Point;
 >>>>>>> jb
+=======
+package civilization;
+>>>>>>> ah
 
 /**
  *
  * @author jebraun
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 public interface Actor {
     
@@ -25,4 +30,9 @@ public abstract class Actor {
     
     abstract void doAction(Cell[][] grid);
 >>>>>>> jb
+=======
+public interface Actor {
+    
+    void doAction();
+>>>>>>> ah
 }

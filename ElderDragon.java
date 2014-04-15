@@ -1,8 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 package civilization;
 =======
 package finalproject;
 >>>>>>> jb
+=======
+package civilization;
+>>>>>>> ah
 
 import java.awt.Point;
 
@@ -10,10 +14,14 @@ import java.awt.Point;
  * ElderDragon.java created by jebraun on Apr 10, 2014 at 1:22:33 PM
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 public class ElderDragon implements Dragon {
 =======
 public class ElderDragon extends Dragon {
 >>>>>>> jb
+=======
+public class ElderDragon implements Dragon {
+>>>>>>> ah
 
     final static int attack = 900;
     final static int defense = 850;
@@ -31,16 +39,22 @@ public class ElderDragon extends Dragon {
 
     @Override
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ah
     public void doAction() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
+<<<<<<< HEAD
 =======
     void doAction(Cell[][] grid) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
 >>>>>>> jb
+=======
+>>>>>>> ah
     @Override
     public void move() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
