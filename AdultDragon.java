@@ -1,11 +1,19 @@
+<<<<<<< HEAD
 package civilization;
+=======
+package finalproject;
+>>>>>>> jb
 
 import java.awt.Point;
 
 /**
  * AdultDragon.java created by jebraun on Apr 10, 2014 at 1:18:24 PM
  */
+<<<<<<< HEAD
 public class AdultDragon implements Dragon {
+=======
+public class AdultDragon extends Dragon {
+>>>>>>> jb
 
     final static int attack = 500;
     final static int defense = 450;
@@ -22,10 +30,17 @@ public class AdultDragon implements Dragon {
     }
 
     @Override
+<<<<<<< HEAD
     public void doAction() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
+=======
+    void doAction(Cell[][] grid) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+    
+>>>>>>> jb
     @Override
     public void move() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
